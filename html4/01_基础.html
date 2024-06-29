@@ -8,7 +8,125 @@
 <body>
 <marquee loop="1">
     test5
-    <input type="text" />
+    <input type="text"/>
 </marquee>
+<a href="#htl">跳转到htl</a>
+<a href="#uuu">跳转到yyyyy</a>
+<a href="https://www.baidu.com">百度</a>
+<img src="test.png" alt="tupian"/>
+<a href="http://www.baidu.com" target="_blank">百度</a>
+<!--锚点-->
+<a name="htl"/>
+<a href="./resource/test.png" target="_blank">百度</a>
+<a href="./resource/test.mp4" target="_blank" download="haokan.mp4">百度</a>
+<a href="./resource/test.pdf" target="_blank">百度</a>
+<p id="uuu">yyyy</p>
+<a href="#">回到顶部</a>
+<a href="">刷新页面</a>
+<a href="http://localhost#modian">跳转其他页面的锚点</a>
+<a href="javascript:alert(1);">点我弹窗</a>
+<a href="tel:10086">拨打电话</a>
+<a href="mailto:ddkd@163.com">邮件</a>
+<a href="sms:12934903">短信</a>
+<ul>
+    <li>1</li>
+    <li>
+        <span>ttt</span>
+        <ul>
+            <li>1</li>
+        </ul>
+    </li>
+</ul>
+<ol>
+    <li>1</li>
+</ol>
+
+<dl>
+    <dt>title</dt>
+    <dd>description</dd>
+    <dd>description</dd>
+    <dt>title2</dt>
+    <dd>description2</dd>
+</dl>
+
+<table border="1" width="400" height="400" cellspacing="0">
+    <caption>标题嘿嘿</caption>
+    <thead>
+    <th width="50" height="40" align="left" valign="top">表头1</th>
+    <th>表头2</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td width="50" height="40" align="left" valign="top">2</td>
+        <td>2</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td></td>
+        <td>总4</td>
+    </tr>
+    </tfoot>
+</table>
+
+<!--horizontal rule-->
+<hr>
+<!--preformatted text-->
+<pre>
+    heih     hhh
+       cccc
+</pre>
+
+<p>das&nbsp;&nbsp;aa</p>
+<p>das&#160;&nbsp;aa</p>
+<p>das&lt;&gt;a&amp;nbsp;a</p>
+<p>&copy;</p>
+<p>&times;</p>
+<p>&divide;</p>
+<p>&yen;</p>
+<p>&trade;</p>
+
+
+<form action="https://search.jd.com">
+    <fieldset>
+        <legend>主要信息</legend>
+        <label>
+            账户：
+            <input type="text" name="account" maxlength="10" disabled>
+        </label><br>
+        <label for="pwd">密码：</label>
+        <input type="password" id="pwd" name="pwd">
+        <br>
+        <label>
+            性别：
+            <input type="radio" name="gender" value="male" checked>男
+            <input type="radio" name="gender" value="female">女
+        </label>
+        <br>
+        <label>
+            籍贯：
+            <select name="place">
+                <option value="shan">陕西</option>
+                <option value="jin" selected>山西</option>
+            </select>
+        </label>
+    </fieldset>
+    <label>
+        个性签名
+        <textarea name="sign" cols="40" rows="10"></textarea>
+    </label>
+    <br>
+    <button type="submit">提交</button>
+    <input type="submit" value="提交2">
+    <input type="reset" value="重置">
+    <input type="button" value="干点别的">
+</form>
+
+<a href="https://baidu.com" target="tt">跳转百度</a>
+<a href="https://taobao.com" target="tt">跳转淘宝</a>
+<form action="http://search.jd.com" target="tt">
+    <input type="submit" value="跳转京东">
+</form>
+<iframe name="tt"></iframe>
 </body>
 </html>
