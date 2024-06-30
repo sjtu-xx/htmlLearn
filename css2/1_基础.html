@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    link
+    <link rel="stylesheet" href="1_基础.css">
+    <style>
+        div::selection {
+            color: rgba(223, 52, 52, 0.5);
+        }
+        div::before {
+            content: "hello" !important;
+            text-decoration: underline dotted;
+        }
+
+        div::after {
+            content: "end" !important;
+            text-decoration: overline wavy red;
+        }
+        div {
+            font-size: 20px;
+            text-indent: 40px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div>hello</div>
+<div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+</body>
+</html>
